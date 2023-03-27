@@ -1,0 +1,65 @@
+
+
+.container{
+    margin-top: 50px;
+    width: 30%;
+    background-color: cornflowerblue;
+    border: none;
+    padding: 30px;
+    border-radius: 30px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+    color: navy;
+}
+.form-group{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    width: auto;
+}
+button{
+    margin-left: 10px;
+    background-color: darkslateblue;
+    border-radius: 5px;
+    color: white;
+    width: 20%;
+    font-weight: bold;
+    cursor: pointer;
+}
+.form-control{
+    border: 5px;
+}
+.list li{
+    margin-top: 10px;
+    background-color: navy;
+    color: white;
+    margin-left: -10px;
+    list-style: none;
+    border-radius: 3px;
+    padding: 10px;
+}
+.listitem {
+    display: flex;
+}
+.listitem .lists{
+    flex: 1;
+}
+.listitem .icons{
+    padding-left: 9px;
+    font-size: 30px;
+}
+#done{
+    color: rgb(120, 245, 85);
+}
+#edit{
+    color: yellow;
+}
+#delete{
+    color: red;
+}
+#list-item{
+    text-decoration: line-through;
+    opacity: 0.6;
+}
